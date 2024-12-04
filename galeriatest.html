@@ -1,115 +1,429 @@
-    <html>
-  <head>
-        <title>Bootstrap Navbars</title>
-    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-     <style type="text/css">
-    body { padding-top: 70px; }
-    .jumbotron {
-      color: #2c3e50;
-      background: #ecf0f1;
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
 
-    }
-    .navbar-inverse {
-      background: #2c3e50;
-      color: white;
-    }
-    .navbar-inverse .navbar-brand, .navbar-inverse a{
-      color:white;
-    }
-    .navbar-inverse .navbar-nav>li>a {
-      color: white;
-    } 
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-  </style>
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/flaticon.css">
+	<link rel="stylesheet" href="assets/css/remixicon.css">
+	<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+	<link rel="stylesheet" href="assets/css/fancybox.css">
+	<link rel="stylesheet" href="assets/css/jquery-ui-min.css">
+	<link rel="stylesheet" href="assets/css/odometer.min.css">
+	<link rel="stylesheet" href="assets/css/aos.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/responsive.css">
+	<link rel="stylesheet" href="assets/css/dark-theme.css">
+	<title>Constructora S&amp;P</title>
+	<link rel="icon" type="image/png" href="assets/img/favicon.png">
+</head>
+<body>
 
-       </head>
+<div class="loader js-preloader">
+	<div></div>
+	<div></div>
+	<div></div>
+</div>
 
-    <body>
-      <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-            <a href="#" class="navbar-brand"><span class="glyphicon glyphicon-picture"></span> IMGS</a>
-          </div>
-          <div class="collapse navbar-collapse" id="bs-nav-demo">
-            <ul class="nav navbar-nav">
-              <li><a href="#">About</a></li>
-              <li><a href="#">Contact</a></li>
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
-              <li><a href="#">Sign Up</a></li>
-              <li><a href="#">Login</a></li>
-            </ul>
-          </div>
+
+<div class="page-wrapper">
+
+<header class="header-wrap style1">
+	<div class="container">
+		<nav class="navbar navbar-expand-md navbar-light">
+			<a class="navbar-brand" href="index.html">
+				<img class="logo-light" src="assets/img/SYP_long.png" alt="logo">
+				<img class="logo-dark" src="assets/img/logo-white.png" alt="logo">
+			</a>
+			<div class="collapse navbar-collapse main-menu-wrap" id="navbarSupportedContent">
+				<div class="menu-close d-lg-none">
+					<a href="javascript:void(0)"> <i class="ri-close-line"></i></a>
+				</div>
+				<ul class="navbar-nav ms-auto">
+					<li class="nav-item">
+						<a href="index.html" class="nav-link">
+							Inicio
+						</a>
+					</li>
+					<li class="nav-item">
+						<a href="index.html" class="nav-link">
+							Nosotros
+						</a>
+					</li>
+					<li class="nav-item">
+						<a href="index.html" class="nav-link">
+							Servicios
+						</a>
+					</li>
+					<li class="nav-item">
+						<a href="index.html" class="nav-link">
+							Galeria
+						</a>
+					</li>
+					<li class="nav-item">
+						<a href="index.html" class="nav-link">
+							Contáctenos
+						</a>
+					</li>
+					<li class="nav-item">
+						<a href="index.html" class="nav-link">
+							WhatsApp
+						</a>
+					</li>
+				</ul>
+
+			</div>
+		</nav>
+		<div class="mobile-bar-wrap">
+			<div class="mobile-menu d-lg-none">
+				<a href="javascript:void(0)"><i class="ri-menu-line"></i></a>
+			</div>
+		</div>
+	</div>
+    
+
+
+</header>
+
+<!--Fotos-->
+
+
+<section class="property-wrap pt-100 pb-75">
+    <div class="container">
+        <div class="row section-title style1 mb-40  align-items-end">
+            <div class="col-md-8">
+                <h2>Hospital de minecraft</h2>
+            </div>
         </div>
-      </nav>
-
-      <div class="container">
-
-     <div class="container">
-    <div class="jumbotron">
-      <h1> <span class="glyphicon glyphicon-align-left" aria-hidden="true"></span>
-        <!-- I can replace the align left with icon span with: <i class="fas fa-camera-retro"></i>  -->
-        Image Galery</h1>
-      <p>A bunch of beautiful images that I dream of taking some day!</p>
+        <div class="tab-content hw-tab-content">
+            <div class="tab-pane fade show active" id="tab_1" role="tabpanel">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-6 col-md-6">
+                        <div class="property-card style2">
+                            <div class="property-img-slider owl-carousel">
+                                <img src="assets/img/property/property-10.jpg" alt="Image">
+                                <img src="assets/img/property/property-1.jpg" alt="Image">
+                                <img src="assets/img/property/property-11.jpg" alt="Image">
+                            </div>
+                            <div class="property-info">
+                                <h3><a href="listing-details.html">Villa In Luis Park</a></h3>
+                                <p><i class="flaticon-location"></i>64, 1st Aveneu, High Steet, USA</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-6 col-md-6">
+                        <div class="property-card style2">
+                            <div class="property-img-slider owl-carousel">
+                                <img src="assets/img/property/property-2.jpg" alt="Image">
+                                <img src="assets/img/property/property-7.jpg" alt="Image">
+                                <img src="assets/img/property/property-8.jpg" alt="Image">
+								                <img src="assets/img/proyectos/proyecto 1/unnamed.jpg" alt="Image">
+								                <a href="assets/img/proyectos/proyecto 1/unnamed (1).jpg" target="_blank">
+                                  <img src="assets/img/proyectos/proyecto 1/unnamed (1).jpg" alt="Image">
+                                </a>
+								                <img src="assets/img/proyectos/proyecto 1/unnamed (2).jpg" alt="Image">
+                            </div>
+                            <div class="property-info">
+                                <h3><a href="listing-details.html">Hospital no sé cuanto</a></h3>
+                                <p><i class="flaticon-location"></i>Recoleta</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-6 col-md-6">
+                        <div class="property-card style2">
+                            <div class="property-img-slider owl-carousel">
+                                <img src="assets/img/property/property-3.jpg" alt="Image">
+                                <img src="assets/img/property/property-9.jpg" alt="Image">
+                                <img src="assets/img/property/property-17.jpg" alt="Image">
+                            </div>
+                            <div class="property-info">
+                                <h3><a href="listing-details.html">Apartment For Rent</a></h3>
+                                <p><i class="flaticon-location"></i>732 Burwell Heights Road, Houston</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-12 col-lg-8 col-md-6">
+                        <div class="property-card style2">
+                            <div class="property-img-slider owl-carousel">
+                                <img src="assets/img/property/property-4.jpg" alt="Image">
+                                <img src="assets/img/property/property-13.jpg" alt="Image">
+                                <img src="assets/img/property/property-12.jpg" alt="Image">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+        </div>
     </div>
-        <div class="row">
-          <div class="col-lg-4 col-sm-6">
-            <div class="thumbnail">
-              <img src="https://images.unsplash.com/39/lIZrwvbeRuuzqOoWJUEn_Photoaday_CSD%20(1%20of%201)-5.jpg?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=92b4ef70a4e06a7e7bf54e1bde61b624&auto=format&fit=crop&w=750&q=80">
-            </div>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <div class="thumbnail">
-              <img src="https://images.unsplash.com/photo-1505273471770-de630b5d5c5d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2745bcf1a765cddc7005657b22aa49a4&auto=format&fit=crop&w=1350&q=80">
-            </div>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <div class="thumbnail">
-              <img src="https://images.unsplash.com/photo-1504982692992-f66b2dbd2f95?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=8243c6f8f2a708cb70366d5994463c01&auto=format&fit=crop&w=750&q=80">
-            </div>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <div class="thumbnail">
-              <img src="https://images.unsplash.com/photo-1460485260172-af9d8b7c0c95?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f215d676ca543685f4cf38536f7ee092&auto=format&fit=crop&w=750&q=80">
-            </div>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <div class="thumbnail">
-              <img src="https://images.unsplash.com/photo-1486082570281-d942af5c39b7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2d06322d7df8c19c1e648c8c3a101d2d&auto=format&fit=crop&w=751&q=80">
-            </div>
-          </div>
-          
-   <div class="col-lg-4 col-sm-6">
-            <div class="thumbnail">
-              <img src="https://images.unsplash.com/photo-1484230725359-32f3d503571e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=8225676351e24c725ab56d228e2706ce&auto=format&fit=crop&w=755&q=80">
-      </div>
-    </div>
- </div>
+</section>
 
+<!--Fotos 2-->
+
+ 
+
+
+<footer class="footer-wrap style2 pt-100">
+<img src="assets/img/footer-map.png" alt="Image" class="footer-shape-one">
+	<div class="footer-top">
+		<div class="container">
+			<div class="row pb-75">
+				<div class="col-xl-4 col-lg-6 col-md-6 col-sm-6 pe-xl-5">
+					<div class="footer-widget">
+						<a href="index.html" class="footer-logo">
+							<img src="assets/img/logo-white.png" alt="Image">
+						</a>
+						<p class="comp-desc">
+							Lorem ipsum dolor sit amet consec tetur aditonsi soom isotope elit esumo tempo incidunt labore dolore magna aliqu core tetur adip iscing eliteous sedun amet.
+						</p>	
+					</div>
+				</div>
+				<div class="col-xl-2 col-lg-6 col-md-6 col-sm-6">
+					<div class="footer-widget">
+						<!--Aqui había otro menú-->
+					</div>
+				</div>
+				<div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 ps-xl-5">
+					<div class="footer-widget">
+						<h3 class="footer-widget-title">Enlaces</h3>
+						<ul class="footer-menu list-style">
+							<li>
+								<a href="index.html" target="_blank">
+									<i class="ri-arrow-right-s-line"></i>
+									Inicio
+								</a>
+							</li>
+							<li>
+								<a href="index.html" target="_blank">
+									<i class="ri-arrow-right-s-line"></i>
+									Nosotros
+								</a>
+							</li>
+							<li>
+								<a href="index.html" target="_blank">
+									<i class="ri-arrow-right-s-line"></i>
+									Serviocios
+								</a>
+							</li>
+							<li>
+								<a href="index.html" target="_blank">
+									<i class="ri-arrow-right-s-line"></i>
+									Galería
+								</a>
+							</li>
+							<li>
+								<a href="index.html" target="_blank">
+									<i class="ri-arrow-right-s-line"></i>
+									Contáctenos
+								</a>
+							</li>
+							<li>
+								<a href="index.html" target="_blank">
+									<i class="ri-arrow-right-s-line"></i>
+									WhatsApp
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-xl-3 col-lg-6 col-md-6 col-sm-6">
+					<div class="footer-widget">
+						<div class="comp-map">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3088.128245943039!2d-71.95801378362458!3d-39.285342027439036!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x96147f56debd1089%3A0xe612082ae4570294!2zT3NjYXIgQWxlamFuZHJvIFNhbGTDrWFzIE1hcsOtbiwgUHVjw7NuLCBBcmF1Y2Fuw61h!5e0!3m2!1ses!2scl!4v1659713463828!5m2!1ses!2scl"></iframe>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="footer-bottom">
+			<div class="row align-items-center">
+				<div class="col-md-6">
+					<p class="copyright-text">
+						<i class="ri-copyright-line"></i><span>Constructoras SyP</span>. All Rights Reserved.
+					</p>
+				</div>
+				<div class="col-md-6">
+					<ul class="social-profile list-style style1">
+						<li>
+							<a target="_blank" href="https://facebook.com">
+								<i class="ri-facebook-fill"></i>
+							</a>
+						</li>
+						<li>
+							<a target="_blank" href="https://twitter.com">
+								<i class="ri-twitter-fill"></i>
+							</a>
+						</li>
+						<li>
+							<a target="_blank" href="https://instagram.com">
+								<i class="ri-instagram-line"></i>
+							</a>
+						</li>
+						<li>
+							<a target="_blank" href="https://linkedin.com">
+								<i class="ri-linkedin-fill"></i>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<!--Fin Footer-->
+
+</div>
+
+
+<a href="javascript:void(0)" class="back-to-top bounce"><i class="ri-arrow-up-s-line"></i></a>
+
+
+<div class="modal fade" id="signIn" tabindex="-1" role="dialog">
+<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+<div class="modal-content">
+<div class="modal-header border-0">
+<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+<i class="ri-close-line"></i>
+</button>
+</div>
+<div class="modal-body">
+<div class="row align-items-center gx-5">
+<div class="col-md-6">
+<div class="login-bg bg-f">
+</div>
+</div>
+<div class="col-md-6">
+<div class="login-content">
+<h2>Sign In</h2>
+<form class="user-form" action="#">
+<div class="row">
+<div class="col-lg-12">
+<div class="form-group">
+<input id="text" name="username" type="text" placeholder="Username" required>
+</div>
+</div>
+<div class="col-lg-12">
+<div class="form-group">
+<input id="pwd" name="pwd" type="password" placeholder="Password" required>
+</div>
+</div>
+<div class="col-lg-12">
+<div class="form-group">
+<button class="btn style1">
+Login Now
+</button>
+</div>
+</div>
+<div class="col-12">
+<p class="text-center mb-10">Or</p>
+</div>
+<div class="col-12">
+<div class="form-group">
+<button type="button" class="btn fb">SignIn With Facebook <span><i class="ri-facebook-fill"></i></span></button>
+</div>
+</div>
+<div class="col-12">
+<div class="form-group">
+<button type="button" class="btn linkedin">SignIn With Linkedin <span><i class="ri-linkedin-fill"></i></span></button>
+</div>
+</div>
+<div class="col-12">
+<div class="form-group mb-0">
+<button type="button" class="btn twitter">SignIn With Twitter <span><i class="ri-twitter-fill"></i></span></button>
+</div>
+</div>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="modal fade" id="signUp" tabindex="-1" role="dialog">
+<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+<div class="modal-content">
+<div class="modal-header border-0">
+<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+<i class="ri-close-line"></i>
+</button>
+</div>
+<div class="modal-body">
+<div class="row align-items-center gx-5">
+<div class="col-md-6">
+<div class="login-bg bg-f">
+</div>
+</div>
+<div class="col-md-6">
+<div class="login-content">
+<h2>Sign Up</h2>
+<p>Please fill the form to create an account</p>
+<form class="user-form" action="#">
+<div class="row">
+<div class="col-lg-12">
+<div class="form-group">
+<input id="fname" name="fname" type="text" placeholder="Full Name" required>
+</div>
+</div>
+<div class="col-lg-12">
+<div class="form-group">
+<input id="email" name="email" type="email" placeholder="Email" required>
+</div>
+</div>
+<div class="col-lg-12">
+<div class="form-group">
+<input id="pwd_2" name="pwd_2" type="password" placeholder="Password" required>
+</div>
+</div>
+<div class="col-lg-12">
+<div class="form-group">
+<input id="pwd_3" name="pwd_3" placeholder="Confirm Password" type="password" required>
+</div>
+</div>
+<div class="col-sm-12 col-12">
+<div class="checkbox style3">
+<input type="checkbox" id="test_1">
+<label for="test_1">
+I Agree with the <a class="link style1" href="terms-of-service.html">Terms &amp; conditions</a> &amp; <a class="link style1" href="privacy-policy.html">privacy policy</a>
+</label>
+</div>
+</div>
+<div class="col-lg-12">
+<div class="form-group">
+<button class="btn style1">
+Register Now
+</button>
+</div>
+</div>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/form-validator.min.js"></script>
+<script src="assets/js/contact-form-script.js"></script>
+<script src="assets/js/aos.js"></script>
+<script src="assets/js/owl.carousel.min.js"></script>
+<script src="assets/js/jquery-ui-min.js"></script>
+<script src="assets/js/odometer.min.js"></script>
+<script src="assets/js/fancybox.js"></script>
+<script src="assets/js/jquery.appear.js"></script>
+<script src="assets/js/tweenmax.min.js"></script>
+<script src="assets/js/main.js"></script>
 </body>
 </html>
-  <!-- Images
-https://images.unsplash.com/39/lIZrwvbeRuuzqOoWJUEn_Photoaday_CSD%20(1%20of%201)-5.jpg?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=92b4ef70a4e06a7e7bf54e1bde61b624&auto=format&fit=crop&w=750&q=80
-
-https://images.unsplash.com/photo-1505273471770-de630b5d5c5d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2745bcf1a765cddc7005657b22aa49a4&auto=format&fit=crop&w=1350&q=80
-
-https://images.unsplash.com/photo-1504982692992-f66b2dbd2f95?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=8243c6f8f2a708cb70366d5994463c01&auto=format&fit=crop&w=750&q=80
-
-https://images.unsplash.com/photo-1460485260172-af9d8b7c0c95?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f215d676ca543685f4cf38536f7ee092&auto=format&fit=crop&w=750&q=80
-
-https://images.unsplash.com/photo-1486082570281-d942af5c39b7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2d06322d7df8c19c1e648c8c3a101d2d&auto=format&fit=crop&w=751&q=80
-
-https://images.unsplash.com/photo-1467810160588-c86c0deb5d16?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1e2ad249c3814d6110c569f71e338762&auto=format&fit=crop&w=750&q=80
-
-https://images.unsplash.com/photo-1482859454392-1b5326395032?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c09ceac7e0b8c2141f627c89a909d0dc&auto=format&fit=crop&w=750&q=80
-
-https://images.unsplash.com/photo-1445964047600-cdbdb873673d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f868e1785b37b19ebe2ec96882fb8d44&auto=format&fit=crop&w=856&q=80
-
-https://images.unsplash.com/photo-1484230725359-32f3d503571e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=8225676351e24c725ab56d228e2706ce&auto=format&fit=crop&w=755&q=80 -->
